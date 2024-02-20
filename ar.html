@@ -10,21 +10,14 @@
 
 <body>
     <div class="container">
-        <model-viewer src="Media/shinningbluemickey.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
-            <button class="Hotspot" slot="hotspot-1" data-position="-0.011187470210715499m 0.41531308842062087m -0.1662571604779189m" data-normal="0.9964028315822842m 0.046548860277393696m -0.07081384625680366m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Ear</div>
-            </button>
+        <model-viewer src="Media/shinningbluemickey.glb" ar camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
             </div>
-            <button slot="ar-button" id="ar-button">
-                View in your space
-            </button>
+      
             <div id="ar-prompt">
-                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
             </div>
         </model-viewer>
-        
         
     </div>
     
