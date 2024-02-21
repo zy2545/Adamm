@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
     padding: 10px 20px;
-background: #fcfafa;
+background: #4b4a4a;
 }
 
 /* font styles */
@@ -25,7 +25,7 @@ p {
 .link-back,
 a {
     text-decoration: none;
-    color: rgb(0, 255, 238);
+    color: rgb(255, 208, 0);
 }
 
 .page-header h1:hover {
