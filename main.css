@@ -177,3 +177,15 @@ model-viewer {
     height: 100vh; /* 100% of the viewport height */
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px; /* Adjust the gap between images */
+}
+
+.image-grid img {
+    width: 100%; /* Make images fill their cell */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
