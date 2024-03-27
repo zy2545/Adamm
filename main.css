@@ -183,6 +183,12 @@ model-viewer {
     gap: 10px; /* Adjust the gap between images */
 }
 
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the gap between images */
+}
+
 .image-grid img {
     width: 100%; /* Make images fill their cell */
     height: auto; /* Maintain aspect ratio */
